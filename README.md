@@ -29,3 +29,11 @@
   * datatimeを利用したpandas，ビン化
   * tsfresh
   * scikit-learnのpreprocessingのPolynomialFeatures，KNNImputer(k近傍法による欠損値補完)
+
+## 第7章
+* 特徴量選択
+  * カイ二乗検定，貪欲法，再帰的特徴量削減(RFE)，モデルベース特徴量選択
+* データセット
+  * scikit-learnのmake_classification，糖尿病のデータセット
+* モデル
+  * ロジスティック回帰，ランダムフォレスト
