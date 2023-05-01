@@ -23,3 +23,9 @@
   * Categoical Feature Encoding Challenge2，米国の国勢調査データセット
 * モデル
   * Scikit-learnのロジスティック回帰，ランダムフォレスト，XGBoost
+
+## 第6章
+* 特徴量エンジニアリング
+  * datatimeを利用したpandas，ビン化
+  * tsfresh
+  * scikit-learnのpreprocessingのPolynomialFeatures，KNNImputer(k近傍法による欠損値補完)
