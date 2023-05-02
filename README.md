@@ -1,5 +1,6 @@
 # 概要
 * Kaggle Grandmasterに学ぶ機械学習実践アプローチの勉強記録
+* 著者github(https://github.com/abhishekkrthakur/approachingalmost)
 
 ## 第1章
 * mnistのtSNEを使った可視化
@@ -43,5 +44,12 @@
   * グリッドサーチ，ランダムサーチ，パイプライン，ベイズ最適化，hyperopt
 * データセット
   * 携帯電話の性能からの価格予測
+* モデル
+  * ランダムフォレスト
+
+## 第9章
+* 画像分類・セグメンテーション
+* データセット
+  * 肺の気胸の画像データセット(siim-acr-pneumothorax-segmentation)
 * モデル
   * ランダムフォレスト
