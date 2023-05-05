@@ -44,7 +44,7 @@ if __name__ == "__main__":
     )
 
     train_loader = torch.utils.data.DataLoader(
-        train_dataset, batch_size=32, shuffle=True, num_workers=4
+        train_dataset, batch_size=4, shuffle=True, num_workers=4
     )
 
     valid_dataset = dataset.ClassificationDataset(
@@ -61,6 +61,7 @@ if __name__ == "__main__":
     optimizer = torch.optim.Adam(model.parameters(), lr=5e-4)
 
     for epoch in range(epochs):
+        print(next(model.parameters()).is_cuda)
         engine.train(train_loader, model, optimizer, device=device)
         predictions, valid_targets = engine.evaluate(
             valid_loader, model, device=device
