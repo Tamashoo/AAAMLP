@@ -52,4 +52,4 @@
 * データセット
   * 肺の気胸の画像データセット(siim-acr-pneumothorax-segmentation)
 * モデル
-  * ランダムフォレスト，AlexNet
+  * ランダムフォレスト，AlexNet，UNet

@@ -133,6 +133,6 @@ if __name__ == '__main__':
     for epoch in range(EPOCHS):
         train(train_dataset, train_loader, model, criterion, optimizer)
         val_score = evaluate(valid_dataset, valid_loader, model, criterion)
-        scheduler.step(val_score["loss"])
+        scheduler.step(val_score)
         print(f"Epoch: {epoch}, val_score: {val_score}")
         print("\n")
