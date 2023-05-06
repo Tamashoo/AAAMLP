@@ -67,3 +67,6 @@
     * 単語の重要度を計算
   * 特異値分解(SVD)
     * 次元削減
+  * 単語埋め込み(word embedding)
+    * 単語をベクトル化
+    * fastText，GloVe
