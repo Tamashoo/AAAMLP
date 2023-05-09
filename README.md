@@ -60,6 +60,7 @@
   * IMDBの映画レビューデータセット
 * モデル
   * ロジスティック回帰，単純ベイズ分類器，LSTM，BERT(Transformer)
+    * transformerはライブラリのバージョン関係からか微妙
 * 前処理
   * CountVectorizer
     * 文章数×単語数の行列を作成
@@ -70,3 +71,7 @@
   * 単語埋め込み(word embedding)
     * 単語をベクトル化
     * fastText，GloVe
+
+## 第11章
+* アンサンブル学習
+  * XGBoost，ランダムフォレスト，ロジスティック回帰
