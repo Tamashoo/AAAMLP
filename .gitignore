@@ -2,3 +2,4 @@ mnist_train_folds.csv
 models/
 input/
 apex/
+model.bin

@@ -10,7 +10,8 @@ class BERTBaseUncased(nn.Module):
         #self.bert = transformers.BertModel.from_pretrained(config.BERT_PATH, from_tf=True)
         #self.bert = transformers.BertModel.from_pretrained("bert-base-uncased")
         self.bert_drop = nn.Dropout(0.3)
-        self.out = nn.Linear(768, 1)
+        #self.out = nn.Linear(768, 1)
+        self.out = nn.Linear(30522, 1)
     
     def forward(self, ids, mask, token_type_ids):
         lhs, o2 = self.bert(ids, attention_mask=mask, token_type_ids=token_type_ids)
